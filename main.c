@@ -37,6 +37,7 @@ int main()
         if (stdlist[i].cse103_gp > 4.00 || stdlist[i].eng101_gp > 4.00 || stdlist[i].mat101_gp > 4.00)
         {
             printf("Invalid Input found! GPA should be less or equal to 4.00");
+            return 0;
         }
     }
     fprintf(file2, "---------------------------------------------------------------------------------------------------\n");
